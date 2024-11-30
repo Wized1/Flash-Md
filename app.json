@@ -1,6 +1,6 @@
 {
-  "name": "FLASH-MD",
-  "description": "An easy and simple WhatsApp bot developed by France King",
+  "name": "BHAYO-MD",
+  "description": "An easy and simple WhatsApp bot developed by Mudassir Wazir",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
   "repository": "https://github.com/franceking1/Flash-Md",
@@ -9,7 +9,7 @@
 
   "env": {
     "PREFIX": {
-      "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
+      "description": ".",
       "value": ".",
       "required": false
     },
@@ -59,7 +59,7 @@
       "required": false
     },
     "BOT_MODE": {
-      "description": "Set the bot to 'private' mode to restrict access to certain users or 'public' mode for general access.",
+      "description": "public",
       "value": "public",
       "required": false
     },
@@ -73,7 +73,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Place your unique FLASH MD session ID here. This is required for the bot to function.",
+      "description": "FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0sybGlVL0UzbVBBZXZIOEZvbXhRWkkrZy9Yb2FBUnBiN3dvZXE1L0hIST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidnRTeTdhQXZSNHhtTUoydGU1Zi94aitiSzFMVFp2ZzR1MUIvQWg3ZmVWWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTS283d1hjK1BqL1RYRktYSGdyd1VsUThMRktDVG15NWg3b1lvb28vVzNzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqeXphaGdQL2hONTNOeTdKMW51NCtET2pqYlZHZ3NjNFRvN0FaVWx2RFEwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJINTZ4eHA0d25aazhmUWFjbG4vK2JJRERLajVVbWtuNnh3Z1F6bkJnMTg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjMwVWFiQzdJSFM0R1ZYK1E0K2huSGdnZDFXbjMxQThpTTR6ZmtWU0pmbFk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0hGODBva2NzVzM2YUpMaTE1b0VpMWlFd1ZyRXllNnB6VjNUMkdBcFIxYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNktiVVF3ODhzeFhZYXFkWW91NnR2T3EvWHExc0hRSkNIV0FZZUNFUmx6VT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlptenBEc0ZScE91OG9BS09NL1V4ZkV5alBCb1dUL01BSm1uMjVIbm9hRXBuSlBxSm15OENORi9ZdUdMNHZxNDFIYWJZR3FQVmRoODlWRS9sT3VPQkJBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTg5LCJhZHZTZWNyZXRLZXkiOiJYTWs2a0lmU2kydXFsb2RZV3dUeGdETjdyUFFXMDQ2T3NQbnd5ZnpEU3RNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjkyMzA4NzUzMzk2OEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIwRDBFODU4N0Y5QkU1ODMxOTNCMzFCNjE1NTk2MTczQyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzMyOTc2NDI0fSx7ImtleSI6eyJyZW1vdGVKaWQiOiI5MjMwODc1MzM5NjhAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQTRDNUUzM0UyMzlDMjJFQUVENTI3RkQ0OTJDNUNCRjgifSwibWVzc2FnZVRpbWVzdGFtcCI6MTczMjk3NjQyNH0seyJrZXkiOnsicmVtb3RlSmlkIjoiOTIzMDg3NTMzOTY4QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkY5NUM5RkYyNEQ0OTA0QjMxMDEzNUJBRjVFODNEOTlCIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzI5NzY0Mjd9LHsia2V5Ijp7InJlbW90ZUppZCI6IjkyMzA4NzUzMzk2OEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIyRTZGOEVFMzZDQTE2N0U5QkM0Qjc4MjcyNEQyNjFFMCJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzMyOTc2NDI3fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJzMXRNTGhaTVNBcVJGdF9sQmZBWkJRIiwicGhvbmVJZCI6IjRkMDRjY2E4LTk3ZTMtNDAzYi1iZTcxLTcyM2VlN2NjMjUyYyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqMG1Ob04xVXhkU0RLVko1dzBsUUROQWhkK1E9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRlBMbitvUW11L0lnUmtXOC9xL0xwOHdGY0VnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjY4QUFDWVc0IiwibWUiOnsiaWQiOiI5MjMwODc1MzM5Njg6MTRAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiTXVkYXNpciJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUGJWdHJjRkVKbStyTG9HR0FVZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5Ijoic3pNd09PMldGY09reG1FcXVndWRIcGVNMG04bWs3cFo3c1MrcTFDTElRdz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiR2tSbUdMd0daZFZ6dDBrWmJKM3V5bENUek8xS2FZL1JHTmMwSGJoOUVNMzJxNU5ncVcxaUFOZmdrY01HK0RwSWlmRkRhV3ZjMzZLUnJnMXVycmgvRGc9PSIsImRldmljZVNpZ25hdHVyZSI6InNiUjQwcmVUK0Y1dkozblEyVTRHMTdONFlNcWVROFVId2h4Sk9wVkFQV3ovdnJydEdtOWlIemtocmt3NHFkMXptaTQxQzNaRHM0NEFMdEVJYlprWEF3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzMDg3NTMzOTY4OjE0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmJNek1EanRsaFhEcE1aaEtyb0xuUjZYak5KdkpwTzZXZTdFdnF0UWl5RU0ifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzI5NzY0MjIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBR2VXIn0=",
       "value": "",
       "required": true
     },
@@ -83,7 +83,7 @@
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
+      "description": "923087533968",
       "value": "254751284190",
       "required": false
     },
@@ -98,12 +98,12 @@
       "required": false
     },
     "STARTING_MESSAGE": {
-      "description": "Show a starting message when the bot is activated. Set to 'on' to show or 'off' to hide.",
+      "description": "on",
       "value": "on",
       "required": true
     },
     "PRESENCE": {
-      "description": "Choose how you want to appear to others: 'online' (always online), 'typing' (currently typing), 'recording' (currently recording audio), or leave blank for real-time presence.",
+      "description": "online",
       "value": "",
       "required": false
     }
